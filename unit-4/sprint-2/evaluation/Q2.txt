@@ -1,0 +1,21 @@
+Q2. What do you understand by “Java Strings are immutable”.
+Explain the advantages and disadvantages of immutability of
+Strings.
+
+Ans: i understood that once we create a string, we cannot
+change that string. in the below method we can know that we using an inbuilt method concat but still is not working.
+
+String message = "pradeep";
+message.concat(" user");
+System.out.println(message);
+output:
+Welcome
+
+immutable: 
+  Adwantages                                                                                                                         
+1.It simplifies multithreaded programming.  
+2.It allows for a reduction of memory usage.
+
+
+Disadwantages:
+immutable classes is that they require a separate object for each distinct value.

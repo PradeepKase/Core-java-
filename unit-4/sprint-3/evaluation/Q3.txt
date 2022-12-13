@@ -1,0 +1,54 @@
+Q3.
+ What is the significance of using the final keyword with the following programming
+constructs.
+a. variable
+b. method
+c. class
+
+ANS: we can use final to tell the variable,method,class value is final.
+like: RBI have final interset rate for many banks and all the banks will follow this method.
+inshort- we use this final keyword when we no need to change value.(fixed value or method)
+Final keyword can be applied to varibales,methods, and claases also and it has diffrent meaning in each consequences.
+
+a.  variable:  
+
+publuic static void main (sting[] args){
+
+int i=15;
+i++
+// NO error becasue its normal int and crement it.
+
+if we add final keyword in like:
+final int i=15;
+i++;    // error because used final keyword here cant change or update the int i(we can assaign value once)
+
+b. method:
+
+class A{
+void nonofinalmethod(){
+sysout(" it works normal)
+}  //no error 
+
+method with Final keyword:
+
+final void nonofinalmethod(){
+sysout(" it works normal)
+} // Error we cant Over ride this method becasue it is final
+ex: the RBI can use this method to finaliae interest rate;
+
+c. class:
+
+if the class is with final keyword it cannot be extended like(parent child class)
+it will give compile error;
+
+ex:
+final class Animal{
+}
+
+class Dog extends Animal{
+}// give error cant extend because usek keywoed final at the class.
+
+
+
+
+

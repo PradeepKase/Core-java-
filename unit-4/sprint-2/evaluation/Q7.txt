@@ -1,0 +1,20 @@
+Q7.  Explain the concept of static in Java.
+
+ans:- There are two area in our systems one is called RAM and one isROM(storage) when we run a program then the variable 
+which is static is only loaded into RAM which means the non-static variables are in still storage area(ROM).
+So to run a non-static programe we have to make in static by writing static at the begening of the function or we can create an object using "new" key word.
+now the non-static varibles will come into heap area of RAM so we can run non-static functions.
+
+EX:
+     Class Test{
+	int a;         //default 0;
+	int b;
+  puclic static main void(String[] args){
+ System.out.print("hello world")
+ System. out.println(a)   //it give error becasue int a is not static;
+
+  Test s1= new Test(); // now it became static;
+	s1.a=5;
+System.out.println(a)
+}
+}

@@ -1,0 +1,6 @@
+Q3.  Explain has-A relationship with a code example.
+
+n Java, a Has-A relationship means instance of one class has a reference to an instance of another class.
+ For example: there is nest class and eggs class here implements a as-A relationship.
+
+ex2: there is car class and dog tail class so there is no as-A relationship.

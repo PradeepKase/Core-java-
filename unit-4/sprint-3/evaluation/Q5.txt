@@ -1,0 +1,39 @@
+Q5.
+a. What is object downcasting?
+b. Explain with a code example.
+
+a. downcasting means typecasting of parent object to child object
+
+
+b. Explain with a code example.
+class Animal{					//created parent class with eat method;
+int age:
+void eat(){
+sysout("it can eat");
+}
+}
+
+ class Dog extends Animal{  			// created child dog class with overriden method
+@override
+void eat(){
+sysout("Dog can eat");
+}
+}
+
+public class Main {
+public static void main (string[] args){
+Anima a= new Dog():    				
+Dog d=(Dog)a;					//downcasting
+d.eat();					//downcasting
+}
+}
+
+
+public class Main {
+public static void main (string[] args){
+Anima a= new Dog():    				// upcasting using parent class.
+a.eat()						// upcasting using parent class.
+}
+}
+
+

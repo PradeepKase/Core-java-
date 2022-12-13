@@ -1,0 +1,31 @@
+Q.4
+a. What are the benefits of using an abstract method?
+b. Explain with an appropriate code example.
+
+a. What are the benefits of using an abstract method?
+ 1. we can hide the impimentation details from user;
+ 2. more secured code ;
+ 3. if we have many functionality then we go for abstract method;
+  
+
+b. Explain with an appropriate code example.
+
+class main{								// main method
+public static void main (string[] srgs){				
+MathameticalShapes shape= new square();					//creating obj using upcast
+system.out(shape.square(l))						//printing areaa of square
+
+}
+}
+
+abstract class MethameticShapes{					//making parent class abstaract 
+abstract double calculateArea(double length,double breadth){      	// making abstaract method
+final double=22/7;							
+return(length*breadth)
+}
+
+class square extends MethameticShapes{					// making child of MethameticShapes
+@Override
+double calculateArea(double length){					// overiding calculateArea method
+return (l*l)
+}

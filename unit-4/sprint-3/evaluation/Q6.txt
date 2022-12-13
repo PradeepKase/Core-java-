@@ -1,0 +1,28 @@
+Q6. 
+a. What is object upcasting?
+Ans: upcasting is the typecasting of child object to a perent.
+
+
+b. ex:
+
+class Animal{					//created parent class with eat method;
+int age:
+void eat(){
+sysout("it can eat");
+}
+}
+
+ class Dog extends Animal{  			// created child dog class with overriden method
+@override
+void eat(){
+sysout("Dog can eat");
+}
+}
+
+
+public class Main {
+public static void main (string[] args){
+Anima a= new Dog():    				// upcasting using parent class.
+a.eat()						// upcasting using parent class.
+}
+}

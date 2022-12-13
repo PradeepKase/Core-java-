@@ -1,0 +1,26 @@
+Q1. Explain the difference between == operator and equals() method
+with a code example.
+
+if we use == in code to the jvm is check for its location(address) of those class or variable.
+It wont compare the content inside variable;
+
+Ex: public class Test{
+public static void main(String[] args){
+String s1="Pradeep";
+String s2="Pradeep";
+
+	if(s1==s2){
+	System.out.println("same");
+	}
+	else{
+	System.out.println("same");
+	}
+      }
+    }
+}
+ output=same
+ because the java will check into String pool if there exsit same value string
+ the jvm will refernce to the already existe steing.
+
+if we want check content inside s1 and s2 we have to use .equals() methods.
+
